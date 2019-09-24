@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_start_screen"
+    android:orientation="vertical"
+    android:weightSum="20"
+    tools:context=".Activities.StartingScreen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="3dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/starting_screen_muvv_logo" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:src="@drawable/start_screen_logo" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+
+    <TextView
+        android:id="@+id/lets_muvv_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Let's Muvv !"
+        android:textColor="@android:color/white"
+        android:textSize="24dp" />
+
+</LinearLayout>
